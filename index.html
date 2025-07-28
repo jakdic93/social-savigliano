@@ -2,10 +2,103 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <title>Facebook</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chiesa di Savigliano</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      padding: 20px;
+      background-color: #ffffff;
+    }
+
+    header img {
+      width: 120px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .info {
+      margin-bottom: 30px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      padding-bottom: 40px;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 250px;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-size: 16px;
+      text-decoration: none;
+      transition: background-color 0.2s ease;
+    }
+
+    .facebook { background-color: #3b5998; }
+    .instagram { background-color: #E4405F; }
+    .whatsapp { background-color: #25D366; }
+
+    .btn img {
+      width: 24px;
+      height: 24px;
+    }
+
+    footer {
+      font-size: 13px;
+      color: #777;
+      margin-top: 30px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Benvenuto!</h1>
-  <p><a href="https://www.facebook.com/tuapagina" target="_blank">Clicca qui per visitare la nostra pagina Facebook</a></p>
+
+  <header>
+    <!-- Sostituisci con il tuo logo -->
+    <img src="https://via.placeholder.com/120x120.png?text=Logo" alt="Logo Chiesa">
+    <div class="info">
+      <h1>Chiesa Cristiana Evangelica di Savigliano</h1>
+      <p>Via Esempio 12, 12038 Savigliano (CN)</p>
+      <p>Domenica ore 10:00 - Culto</p>
+      <p>Mercoledì ore 20:00 - Studio biblico e preghiera</p>
+    </div>
+  </header>
+
+  <div class="buttons">
+    <a class="btn facebook" href="https://www.facebook.com/chiesadisavigliano" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+      Facebook
+    </a>
+    <a class="btn instagram" href="https://www.instagram.com/chiesadisavigliano" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+      Instagram
+    </a>
+    <a class="btn whatsapp" href="https://wa.me/393331522630" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+      WhatsApp
+    </a>
+  </div>
+
+  <footer>
+    © 2025 Chiesa Evangelica di Savigliano
+  </footer>
+
 </body>
 </html>
