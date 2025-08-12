@@ -29,28 +29,30 @@
       margin-bottom: 30px;
     }
 
-    .buttons {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 15px;
-      padding-bottom: 40px;
-    }
+ 
+/* Stile unificato per tutti i bottoni */
+.custom-btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    min-width: 230px; /* stessa larghezza minima per tutti */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
 
-    .btn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      width: 250px;
-      padding: 12px 25px;
-      border: none;
-      border-radius: 6px;
-      color: white;
-      font-size: 16px;
-      text-decoration: none;
-      transition: background-color 0.2s ease;
-    }
+
+.custom-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
 
     .facebook { background-color: #3b5998; }
     .instagram { background-color: #E4405F; }
@@ -136,17 +138,17 @@ footer {
     </div>
   </header>
 
-  <div class="buttons">
+  <div class="custom-btn">
     <h2>Contattaci con:</h2>
-    <a class="btn facebook" href="https://www.facebook.com/chiesadisavigliano" target="_blank">
+    <a class="custom-btn facebook" href="https://www.facebook.com/chiesadisavigliano" target="_blank">
       <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
       Facebook
     </a>
-    <a class="btn instagram" href="https://www.instagram.com/chiesadisavigliano" target="_blank">
+    <a class="custom-btn instagram" href="https://www.instagram.com/chiesadisavigliano" target="_blank">
       <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
       Instagram
     </a>
-    <a class="btn whatsapp" href="https://wa.me/393331522630" target="_blank">
+    <a class="custom-btn whatsapp" href="https://wa.me/393331522630" target="_blank">
       <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
       WhatsApp
     </a>
@@ -173,7 +175,7 @@ footer {
 
   <footer>
     <p>Per maggiori informazioni sulle</p><p>Chiese Evangeliche delle "Assemblee di Dio in Italia":</p>
-      <a class="btn adi" href="https://www.assembleedidio.org/" target="_blank">
+      <a class="custom-btn adi" href="https://www.assembleedidio.org/" target="_blank">
    <img src="Logo ADI" alt ="Logo ADI">
         Visita il sito!
   </a>
