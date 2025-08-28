@@ -31,7 +31,16 @@
 
     .info h1 {
       font-size: 1.5rem;
-      margin: 5px 0 10px 0;
+      margin: 5px 0 0 0; /* Ridotto il margine superiore */
+      line-height: 1.2; /* Aggiunto per maggiore compattezza */
+    }
+
+    /* Stile per il sottotitolo: "Assemblee di Dio in Italia" */
+    .info h1 .subtitle {
+      display: block;
+      font-size: 0.9em; /* Rimpicciolito per farlo stare su una riga */
+      font-weight: normal; /* Reso più leggero per un effetto di sottotitolo */
+      margin-top: 5px; /* Spazio tra titolo e sottotitolo */
     }
 
     .info p {
@@ -107,6 +116,12 @@
       margin-top: 30px;
     }
 
+    /* Stile per il testo del footer: "Visita il sito ufficiale" */
+    footer p {
+      margin: 0;
+      line-height: 1.4;
+    }
+
     .find-church {
       background-color: #ffffff;
       padding: 30px 20px;
@@ -152,7 +167,7 @@
   <header>
     <img class="logo-chiesa" src="Logo" alt="Logo Chiesa">
     <div class="info">
-      <h1>Chiesa Cristiana Evangelica Pentecostale "Assemblee di Dio in Italia"</h1>
+      <h1>Chiesa Cristiana Evangelica Pentecostale <span class="subtitle">Assemblee di Dio in Italia</span></h1>
       <p>📍 Via Mazzini 2, Savigliano (CN)</p>
       <p>🗓️ Mercoledì ore 19:30 | Domenica ore 10:00</p>
     </div>
