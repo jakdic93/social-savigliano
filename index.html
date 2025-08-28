@@ -15,15 +15,14 @@
     }
 
     header {
-      padding: 20px 0; /* Ridotto il padding verticale per un look più compatto */
+      padding: 20px 0;
       background-color: #ffffff;
     }
 
-    /* Regolazione del logo */
     header img.logo-chiesa {
-      width: 150px; /* Imposta una larghezza fissa per il logo */
+      width: 150px;
       height: auto;
-      margin-bottom: 0; /* Rimosso il margine inferiore per avvicinare il testo */
+      margin-bottom: 0;
     }
 
     .info {
@@ -31,13 +30,13 @@
     }
 
     .info h1 {
-      font-size: 1.2rem; /* Ridotta la dimensione del carattere per i dispositivi mobili */
-      margin: 5px 0 10px 0; /* Ridotto il margine per un look più compatto */
+      font-size: 1.5rem;
+      margin: 5px 0 10px 0;
     }
 
     .info p {
-      margin: 5px 0; /* Ridotto il margine tra le righe di testo */
-      font-size: 0.9rem; /* Ridotta la dimensione del carattere per i dispositivi mobili */
+      margin: 5px 0;
+      font-size: 0.9rem;
     }
 
     .buttons {
@@ -47,13 +46,17 @@
       gap: 20px;
       padding-bottom: 40px;
     }
+    
+    .buttons h2 {
+        font-size: 1.2rem;
+    }
 
     .btn {
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 10px;
-      width: 250px; /* Aumentata la larghezza dei bottoni per una migliore usabilità */
+      width: 250px;
       padding: 10px 20px;
       border: none;
       border-radius: 6px;
@@ -71,7 +74,7 @@
     .facebook { background-color: #3b5998; }
     .instagram { background-color: #E4405F; }
     .whatsapp { background-color: #25D366; }
-    .gmail { background-color: #DB4437; } /* Nuovo colore per Gmail */
+    .gmail { background-color: #DB4437; }
 
     .adi {
       background-color: #4db8ff;
@@ -104,16 +107,15 @@
       margin-top: 30px;
     }
 
-    /* Stili per la nuova sezione "Non vivi a Savigliano" */
     .find-church {
       background-color: #ffffff;
-      padding: 30px 20px; /* Rimosso il padding superiore e inferiore per un look più pulito */
+      padding: 30px 20px;
       text-align: center;
     }
-
+    
     .find-church h2 {
       font-weight: bold;
-      font-size: 1.5em;
+      font-size: 1.2rem;
       margin-bottom: 10px;
     }
 
@@ -124,7 +126,7 @@
     }
 
     .find-church a.find-church-btn {
-      background-color: #4CAF50; /* Colore verde per coerenza con il design */
+      background-color: #4CAF50;
       color: white;
       padding: 12px 25px;
       border-radius: 6px;
@@ -135,13 +137,12 @@
     }
 
     .find-church a.find-church-btn:hover {
-      background-color: #3e8e41; /* Verde più scuro al passaggio del mouse */
+      background-color: #3e8e41;
     }
 
     @media (max-width: 480px) {
-      /* Ottimizzazioni specifiche per schermi molto piccoli */
       .btn {
-        width: 80%; /* I bottoni occupano l'80% della larghezza su schermi piccoli */
+        width: 80%;
       }
     }
   </style>
@@ -152,13 +153,13 @@
     <img class="logo-chiesa" src="Logo" alt="Logo Chiesa">
     <div class="info">
       <h1>Chiesa Cristiana Evangelica Pentecostale "Assemblee di Dio in Italia"</h1>
-      <p>📍 Via Mazzini 2, 12038 Savigliano (CN)</p>
+      <p>📍 Via Mazzini 2, Savigliano (CN)</p>
       <p>🗓️ Mercoledì ore 19:30 | Domenica ore 10:00</p>
     </div>
   </header>
 
   <div class="buttons">
-    <h2>Contattaci con:</h2>
+    <h2>Contattaci:</h2>
     <a class="btn facebook" href="https://www.facebook.com/chiesadisavigliano" target="_blank">
       <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
       Facebook
@@ -178,10 +179,10 @@
   </div>
 
   <section class="find-church">
-    <h2>Non vivi a Savigliano?</h2>
+    <h2>Non sei a Savigliano?</h2>
     <p>
-      Vuoi conoscere indirizzo e orari della Chiesa Evangelica più vicina a te?<br>
-      Scoprilo subito cliccando sul bottone qui sotto.
+      Scopri la Chiesa Cristiana Evangelica più vicina a te.<br>
+      Clicca qui e trova il luogo e gli orari.
     </p>
     <a href="https://www.assembleedidio.org/dove-siamo/" target="_blank" class="find-church-btn">
       🔍 Trova una Chiesa!
@@ -189,8 +190,7 @@
   </section>
 
   <footer>
-    <p>Per maggiori informazioni sulle</p>
-    <p>Chiese Evangeliche delle "Assemblee di Dio in Italia":</p>
+    <p>Per maggiori informazioni sulle "Assemblee di Dio in Italia", visita il sito ufficiale:</p>
     <a class="adi" href="https://www.assembleedidio.org/" target="_blank">
       <img src="Logo ADI" alt="Logo ADI">
       Visita il sito!
